@@ -1,0 +1,34 @@
+<!-- <div style="display: flex">
+  <mat-icon>check_circle</mat-icon>
+  <p>{{ todo.title }}</p>
+  <p>{{ todo.desc }}</p>
+  <mat-icon>edit</mat-icon>
+  <mat-icon (click)="onClick(todo)">delete</mat-icon>
+</div> -->
+<!-- <div #deletebuttn>
+  <table class="table">
+    <tr>
+      <th scope="row"><mat-icon class="material">check_circle</mat-icon></th>
+      <td>{{ todo.title }}</td>
+      <td>{{ todo.desc }}</td>
+      <td><mat-icon id="edit" (click)="onClickEdit(todo)">edit</mat-icon></td>
+      <td>
+        <mat-icon (click)="onClick(todo)" id="delete" #deletebutt>delete</mat-icon>
+      </td>
+    </tr>
+  </table>
+</div> -->
+<div>
+  <div style="margin-top: 74px; margin-bottom: -57px">
+    <p id="icon"><mat-icon class="material">check_circle</mat-icon></p>
+    <p id="text">{{ todo.title }}</p>
+    <p id="iconn">
+      <mat-icon id="edit" (click)="onClickEdit(todo)">edit</mat-icon>
+    </p>
+    <p id="iconnn">
+      <mat-icon (click)="onClick(todo)" id="delete" #deletebutt
+        >delete</mat-icon
+      >
+    </p>
+  </div>
+</div>
